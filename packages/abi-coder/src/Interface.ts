@@ -6,7 +6,7 @@ import { arrayify } from '@fuel-ts/utils';
 import { AbiCoder } from './AbiCoder';
 import { FunctionFragment } from './FunctionFragment';
 import type { InputValue } from './encoding/coders/AbstractCoder';
-import type { JsonAbi, JsonAbiConfigurable } from './types/JsonAbi';
+import type { JsonAbi, JsonAbiArgument, JsonAbiConfigurable } from './types/JsonAbi';
 import { type EncodingVersion } from './utils/constants';
 import { findTypeById, getEncodingVersion } from './utils/json-abi';
 
